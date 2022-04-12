@@ -38,30 +38,14 @@ abstract class Nav {
     T? result,
     bool delayed = true,
   ]) async {
-    if (isPopping) return false;
-
-    if (delayed) {
-      isPopping = true;
-      await Future<void>.delayed(const Duration(milliseconds: 150));
-      isPopping = false;
-    }
-
-    return Navigator.maybePop(context, result);
+    return Navigator.maybePop<T>(context, result);
   }
 
   static void pop<T>(
     BuildContext context, [
     T? result,
   ]) async {
-    //if (isPopping) return;
-
-    /*if (delayed) {
-      isPopping = true;
-      await Future<void>.delayed(const Duration(milliseconds: 150));
-      isPopping = false;
-    }*/
-
-    Navigator.pop(context, result);
+    Navigator.pop<T>(context, result);
   }
 
   static Future<T?> push<T>(
@@ -71,12 +55,6 @@ abstract class Nav {
     //bool delayed = true,
     PageRouteType transitionType = PageRouteType.material,
   }) async {
-    /*if (MaterialDelayer.has('Nav.push')) {
-      return null;
-    }*/
-
-    //await MaterialDelayer.delayFor('Nav.push');
-
     if (transitionType == PageRouteType.material) {
       return await Navigator.of(context).push<T>(
         MaterialPageRoute(
