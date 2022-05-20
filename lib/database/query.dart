@@ -1,12 +1,12 @@
 library query;
 
 import 'dart:convert';
-import 'package:forgix_framework/database/database.dart';
-import 'package:forgix_framework/database/join.dart';
-import 'package:forgix_framework/database/order_by.dart';
-import 'package:forgix_framework/database/statements.dart';
-import 'package:forgix_framework/database/where.dart';
-import 'package:forgix_framework/log/log.dart';
+import 'package:lyra_framework/database/database.dart';
+import 'package:lyra_framework/database/join.dart';
+import 'package:lyra_framework/database/order_by.dart';
+import 'package:lyra_framework/database/statements.dart';
+import 'package:lyra_framework/database/where.dart';
+import 'package:lyra_framework/log/log.dart';
 import 'package:sqflite/sqflite.dart' show Batch, Transaction;
 
 part 'helpers.dart';

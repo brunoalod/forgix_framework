@@ -2,9 +2,9 @@ library scheduler;
 
 import 'dart:async';
 
-import 'package:forgix_framework/actions/action.dart';
-import 'package:forgix_framework/log/log.dart';
-import 'package:forgix_framework/store/store.dart';
+import 'package:lyra_framework/actions/action.dart';
+import 'package:lyra_framework/log/log.dart';
+import 'package:lyra_framework/store/store.dart';
 
 abstract class ActionScheduler {
   static final List<_ScheduledAction> actions = [];

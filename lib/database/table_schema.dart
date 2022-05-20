@@ -1,5 +1,5 @@
-import 'package:forgix_framework/database/column_schema.dart';
-import 'package:forgix_framework/database/database.dart';
+import 'package:lyra_framework/database/column_schema.dart';
+import 'package:lyra_framework/database/database.dart';
 
 class TableSchema {
   String name;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_feather_icons/flutter_feather_icons.dart';
-import 'package:forgix_framework/nav/nav.dart';
-import 'package:forgix_framework/responsive/responsive.dart';
-import 'package:forgix_framework/widgets/conditional_widget.dart';
+import 'package:lyra_framework/nav/nav.dart';
+import 'package:lyra_framework/responsive/responsive.dart';
+import 'package:lyra_framework/widgets/conditional_widget.dart';
 
 enum ListPickerMode { single, multi }
 
@@ -179,7 +179,7 @@ class _ListPickerState<T> extends State<ListPicker<T>> {
                         primary: Colors.red,
                       ),
                       child: const Text(
-                        'BORRAR',
+                        'DELETE',
                         style: TextStyle(
                           color: Colors.red,
                           fontSize: 12,
@@ -194,7 +194,7 @@ class _ListPickerState<T> extends State<ListPicker<T>> {
                         primary: Colors.black,
                       ),
                       child: const Text(
-                        'CANCELAR',
+                        'CANCEL',
                         style: TextStyle(
                           color: Colors.black,
                           fontSize: 12,

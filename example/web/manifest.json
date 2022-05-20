@@ -1,6 +1,6 @@
 {
-    "name": "forgix_framework_example",
-    "short_name": "forgix_framework_example",
+    "name": "lyra_framework_example",
+    "short_name": "lyra_framework_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

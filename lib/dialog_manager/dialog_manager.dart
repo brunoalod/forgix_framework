@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:forgix_framework/nav/nav.dart';
-import 'package:forgix_framework/responsive/responsive.dart';
-import 'package:forgix_framework/widgets/conditional_widget.dart';
+import 'package:lyra_framework/nav/nav.dart';
+import 'package:lyra_framework/responsive/responsive.dart';
+import 'package:lyra_framework/widgets/conditional_widget.dart';
 
 enum DialogType {
   success,
@@ -25,9 +25,9 @@ abstract class DialogManager {
       _VolkerixDialogData(
         dialogType: DialogType.loading,
         title: '',
-        acceptText: 'Aceptar',
-        cancelText: 'Cancelar',
-        description: description ?? 'Procesando...',
+        acceptText: 'Accept',
+        cancelText: 'Cancel',
+        description: description ?? 'Processing...',
       ),
     );
   }
@@ -50,8 +50,8 @@ abstract class DialogManager {
         title: title,
         description: description,
         onDismiss: onDismiss,
-        acceptText: acceptText ?? 'Aceptar',
-        cancelText: cancelText ?? 'Cancelar',
+        acceptText: acceptText ?? 'Accept',
+        cancelText: cancelText ?? 'Cancel',
         onAccept: onAccept,
         onCancel: onCancel,
       ),

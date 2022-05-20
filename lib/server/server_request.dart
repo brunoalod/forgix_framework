@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:forgix_framework/log/log.dart';
+import 'package:lyra_framework/log/log.dart';
 import 'package:http/http.dart';
 
 /// Class to send http requests to the server.

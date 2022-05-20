@@ -1,7 +1,8 @@
-import 'package:forgix_framework/database/query.dart';
-import 'package:forgix_framework/database/where.dart';
+import 'package:lyra_framework/database/query.dart';
+import 'package:lyra_framework/database/where.dart';
 
 enum JoinType { normal, clause, subquery }
+
 enum JoinDirection { left, right, center }
 
 class Join {

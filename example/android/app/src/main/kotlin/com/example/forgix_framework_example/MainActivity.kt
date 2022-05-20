@@ -1,4 +1,4 @@
-package com.example.forgix_framework_example
+package com.example.lyra_framework_example
 
 import io.flutter.embedding.android.FlutterActivity
 

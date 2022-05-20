@@ -1,6 +1,6 @@
 import 'dart:async';
-import 'package:forgix_framework/actions/isolate_action.dart';
-import 'package:forgix_framework/actions/isolate_action_group_result.dart';
+import 'package:lyra_framework/actions/isolate_action.dart';
+import 'package:lyra_framework/actions/isolate_action_group_result.dart';
 
 class IsolateActionGroup {
   final _completer = Completer<IsolateActionGroupResult>();

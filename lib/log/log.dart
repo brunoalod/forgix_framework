@@ -29,7 +29,7 @@ abstract class Log {
       message = jsonEncode(message);
     }
 
-    debugPrint(getPrefix() + ' ' + message);
+    debugPrint(getPrefix() + ' ' + message.toString());
 
     _log(message);
   }

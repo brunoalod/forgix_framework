@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:forgix_framework/widgets/conditional_widget.dart';
+import 'package:lyra_framework/widgets/conditional_widget.dart';
 
 class BottomSheetItem {
   final String title;
@@ -136,7 +136,7 @@ class _BottomSheetSelectorState extends State<BottomSheetSelector> {
                   condition: (inputValue != "" ? newItems.length : items.length) > 0,
                   trueChild: CupertinoScrollbar(
                     controller: widget.scrollbarController,
-                    isAlwaysShown: true,
+                    thumbVisibility: true,
                     thickness: 4,
                     child: ListView.builder(
                       controller: widget.scrollbarController,

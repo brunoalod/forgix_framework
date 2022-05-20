@@ -1,7 +1,7 @@
 import 'dart:convert';
-import 'package:forgix_framework/server/server_request.dart';
-import 'package:forgix_framework/server/server_response.dart';
-import 'package:forgix_framework/store/store.dart';
+import 'package:lyra_framework/server/server_request.dart';
+import 'package:lyra_framework/server/server_response.dart';
+import 'package:lyra_framework/store/store.dart';
 import 'package:http/http.dart';
 
 /// Static class to connect the app with the server.

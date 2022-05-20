@@ -1,5 +1,5 @@
-import 'package:forgix_framework/database/query.dart';
-import 'package:forgix_framework/database/table_schema.dart';
+import 'package:lyra_framework/database/query.dart';
+import 'package:lyra_framework/database/table_schema.dart';
 import 'package:sqflite/sqflite.dart';
 
 abstract class Model<T> {

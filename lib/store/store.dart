@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:forgix_framework/database/column_schema.dart';
-import 'package:forgix_framework/database/database.dart';
-import 'package:forgix_framework/database/query.dart';
-import 'package:forgix_framework/database/table_schema.dart';
+import 'package:lyra_framework/database/column_schema.dart';
+import 'package:lyra_framework/database/database.dart';
+import 'package:lyra_framework/database/query.dart';
+import 'package:lyra_framework/database/table_schema.dart';
 
 abstract class Store {
   static Future<void> initialize() async {

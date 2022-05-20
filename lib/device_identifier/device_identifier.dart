@@ -42,7 +42,7 @@ abstract class DeviceIdentifier {
   static Future<File> getUuidFile() async {
     final Directory directory = await getApplicationSupportDirectory();
 
-    final String path = p.join(directory.path, 'uuid.forgix');
+    final String path = p.join(directory.path, 'uuid.lyra');
 
     return File(path);
   }

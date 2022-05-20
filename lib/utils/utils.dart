@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:forgix_framework/log/log.dart';
+import 'package:lyra_framework/log/log.dart';
 import 'package:intl/intl.dart';
 
 int randomInt(min, max) {

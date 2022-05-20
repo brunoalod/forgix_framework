@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.forgix_framework_example">
+    package="com.example.lyra_framework_example">
    <application
-        android:label="forgix_framework_example"
+        android:label="lyra_framework_example"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

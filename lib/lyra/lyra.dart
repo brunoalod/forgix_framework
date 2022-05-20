@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
-import 'package:forgix_framework/database/database.dart';
-import 'package:forgix_framework/scheduler/scheduler.dart';
-import 'package:forgix_framework/server/server.dart';
-import 'package:forgix_framework/store/store.dart';
+import 'package:lyra_framework/database/database.dart';
+import 'package:lyra_framework/scheduler/scheduler.dart';
+import 'package:lyra_framework/server/server.dart';
+import 'package:lyra_framework/store/store.dart';
 
-abstract class Forgix {
+abstract class Lyra {
   static final RouteObserver<PageRoute> routeObserver = RouteObserver();
 
   static Future<void> initialize() async {

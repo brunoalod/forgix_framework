@@ -1,4 +1,4 @@
-# forgix_framework_example
+# lyra_framework_example
 
 A new Flutter project.
 

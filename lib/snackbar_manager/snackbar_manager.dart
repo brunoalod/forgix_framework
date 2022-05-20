@@ -6,7 +6,7 @@ abstract class SnackBarManager {
     required String text,
   }) {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-      action: SnackBarAction(label: 'CERRAR', onPressed: () {}),
+      action: SnackBarAction(label: 'CLOSE', onPressed: () {}),
       backgroundColor: Colors.white,
       elevation: 20,
       duration: const Duration(milliseconds: 2500),

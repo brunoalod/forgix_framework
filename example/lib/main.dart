@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:forgix_framework/database/database.dart';
-import 'package:forgix_framework/forgix/forgix.dart';
+import 'package:lyra_framework/database/database.dart';
+import 'package:lyra_framework/lyra/lyra.dart';
 
 void main() async {
   Database.configure(
@@ -8,7 +8,7 @@ void main() async {
     databaseName: 'database',
   );
 
-  await Forgix.initialize();
+  await Lyra.initialize();
 
   runApp(const MyApp());
 }

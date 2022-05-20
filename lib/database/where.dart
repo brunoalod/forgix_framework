@@ -1,4 +1,4 @@
-import 'package:forgix_framework/database/query.dart';
+import 'package:lyra_framework/database/query.dart';
 
 enum WhereType { whereValue, whereColumn, whereIn, whereClause }
 

@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:forgix_framework/database/table_schema.dart';
-import 'package:forgix_framework/log/log.dart';
+import 'package:lyra_framework/database/table_schema.dart';
+import 'package:lyra_framework/log/log.dart';
 import 'package:sqflite/sqflite.dart' as sqflite;
 import 'package:path/path.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';

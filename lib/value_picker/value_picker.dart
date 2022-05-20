@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:forgix_framework/actions/action_result.dart';
-import 'package:forgix_framework/nav/nav.dart';
-import 'package:forgix_framework/responsive/responsive.dart';
-import 'package:forgix_framework/utils/utils.dart';
-import 'package:forgix_framework/widgets/conditional_widget.dart';
+import 'package:lyra_framework/actions/action_result.dart';
+import 'package:lyra_framework/nav/nav.dart';
+import 'package:lyra_framework/responsive/responsive.dart';
+import 'package:lyra_framework/utils/utils.dart';
+import 'package:lyra_framework/widgets/conditional_widget.dart';
 
 class ValuePicker<T> extends StatefulWidget {
   final T? value;
